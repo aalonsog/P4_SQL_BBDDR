@@ -25,10 +25,17 @@ El proyecto debe clonarse en el ordenador desde el que se está trabajando:
 ```
 $ git clone https://github.com/aalonsog/P4_SQL_BBDDR
 ```
+A continuación deben instalarse las dependencias necesarias para ejecutar el autocorector: 
+
+```
+$ cd P4_SQL_BBDDR
+$ npm install
+```
+
 A continuación se debe acceder al directorio donde se encuentra el dump de la base de datos sobre la que se va a trabajar para proceder a su importación ejecutando las siguientes órdenes:
 
 ```
-$ cd P4_SQL_BBDDR/dump
+$ cd dump
 $ mysql -u <nombre_usuario_mysql> -p -t < employees.sql
 ```
 Una vez importados los datos conectarse a mysql y comprobar que se ha creado una nueva base de datos llamada "employees".
