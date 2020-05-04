@@ -31,6 +31,12 @@ A continuación deben instalarse las dependencias necesarias para ejecutar el au
 $ cd P4_SQL_BBDDR
 $ npm install
 ```
+A continuación deben configurarse los datos de acceso a MySQL mediante las variables de entorno: 
+
+```
+$ export MYSQL_USER="<username>";
+$ export MYSQL_PASS="<password>";
+```
 
 A continuación se debe acceder al directorio donde se encuentra el dump de la base de datos sobre la que se va a trabajar para proceder a su importación ejecutando las siguientes órdenes:
 
