@@ -36,7 +36,16 @@ Una vez importados los datos conectarse a mysql y comprobar que se ha creado una
 ## Tareas a desarrollar
 
 0. Examinar la base de datos importada y dibujar un diagrama con las diferentes tablas y las relaciones entre ellas (no evaluable). 
-1. 
+
+1. Crear una nueva tabla llamada *emails* en la que se almacenen las direcciones de correo electrónico de los empleados. Cada empleado puede tener una o más direcciones de correo electrónico asociadas. La columna *emp_no* almacenará el número de empleado y la columna *email* el correo. (2 ptos)
+
+2. Añadir la dirección de correo del alumno (acabada en @alumnos.upm.es) como dirección de correo del empleado que fue manager del departamento de Finanzas hasta el 1989-12-17. (2 ptos)
+
+3. Contar el número de Senior Engineer que tiene actualmente la empresa (tener en cuenta que en esta BD cuando un periodo de tiempo no se ha terminado, su fecha de fin se marca como 9999-01-01). Modificar el valor del sueldo del empleado con emp_no=18734 para que sea el valor obtenido. (2 ptos)
+
+4. Buscar el empleado del departamento de ventas con sueldo más alto. Guardar el identificador de dicho empleado como valor de sueldo del empleado con emp_no=18675. Nota: para limitar el número de resultados mostrados al hacer una consulta puede añadirse al final de la query el comando *limit <num_de_resultados>*; (2 ptos)
+
+5. Calcular el sueldo medio ACTUAL de los empleados nacidos en diciembre de 1964. Modificar el valor del sueldo del empleado con emp_no=12068 para que sea el valor obtenido (su parte entera). (2 ptos)
 
 ## Prueba de la práctica 
 
