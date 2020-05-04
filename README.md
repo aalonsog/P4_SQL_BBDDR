@@ -5,26 +5,38 @@
 <br/><br/><br/>
 
 # P4_SQL_BBDDR
+
 ## Objetivos
- * Objetivo 1
- * Objetivo 2
+
+ * Familiarizarse con el uso del lenguaje SQL.
+ * Familiarizarse con la gestión de sistemas de Bases de Datos relacionales, en concreto con MySQL
+
 ## Descripción de la práctica
 
-A completar por el profesor
+Esta práctica consiste en el uso del lenguaje SQL a través del SGBD MySQL para examinar una base de datos, determinar su estructura y realizar una serie de consultas y modificaciones. 
 
+Para la realización de esta práctica es necesario tener instalado MySQL así como el software necesario para la utilización de la herramienta autocorector (git, nodejs y el paquete autocorector), ya utiliada previamente en otras prácticas de la asignatura. 
 
-## Descargar el código del proyecto
+## Configuración previa e importación de la base de datos
 
 El proyecto debe clonarse en el ordenador desde el que se está trabajando:
 
 ```
 $ git clone https://github.com/aalonsog/P4_SQL_BBDDR
 ```
-A continuación se debe acceder al directorio de trabajo y abrir el fichero index.html con el editor de la elección del alumno.
+A continuación se debe acceder al directorio donde se encuentra el dump de la base de datos sobre la que se va a trabajar para proceder a su importación ejecutando las siguientes órdenes:
 
 ```
-$ cd P4_SQL_BBDDR
+$ cd P4_SQL_BBDDR/dump
+$ mysql -u <nombre_usuario_mysql> -p -t < employees.sql
 ```
+Una vez importados los datos conectarse a mysql y comprobar que se ha creado una nueva base de datos llamada "employees".
+
+## Actividades a desarrollar
+
+0. Examinar la base de datos importada y dibujar un diagrama con las diferentes tablas y las relaciones entre ellas (no evaluable). 
+1. 
+
 ## Prueba de la práctica 
 
 Para ayudar al desarrollo, se provee una herramienta de autocorrección que prueba las distintas funcionalidades que se piden en el enunciado. Para utilizar esta herramienta debes tener node.js (y npm) ([https://nodejs.org/es/](https://nodejs.org/es/)) y Git instalados. 
