@@ -73,10 +73,3 @@ $ npx autocorector --upload
 
 La herramienta de autocorrección preguntará por el correo del alumno y el token de Moodle. En el enlace [https://www.npmjs.com/package/autocorector](https://www.npmjs.com/package/autocorector) se proveen instrucciones para encontrar dicho token.
 
-**RÚBRICA**: Se puntuará el ejercicio a corregir sumando el % indicado a la nota total si la parte indicada es correcta:
-
--  **10%:** Tarea 1
--  **60%:** Tarea 2
-
-
-Si pasa todos los tests se dará la máxima puntuación.
