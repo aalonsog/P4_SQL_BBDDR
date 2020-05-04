@@ -1,0 +1,12 @@
+{
+    "name": "P4_SQL_BBDDR",
+    "author": "aalonsog",
+    "license": "GNU",
+    "version": "0.0.0",
+    "info": {
+        "githubURL": "aalonsog/P4_SQL_BBDDR",
+        "serverUrl": "https://autocorector.dit.upm.es/",
+        "courseId": "7775",
+        "assignmentId": "82988"
+    }
+}
