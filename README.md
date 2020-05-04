@@ -5,6 +5,7 @@
 <br/><br/><br/>
 
 # P4_SQL_BBDDR
+Versión: 4 de mayo de 2020
 
 ## Objetivos
 
@@ -32,7 +33,7 @@ $ mysql -u <nombre_usuario_mysql> -p -t < employees.sql
 ```
 Una vez importados los datos conectarse a mysql y comprobar que se ha creado una nueva base de datos llamada "employees".
 
-## Actividades a desarrollar
+## Tareas a desarrollar
 
 0. Examinar la base de datos importada y dibujar un diagrama con las diferentes tablas y las relaciones entre ellas (no evaluable). 
 1. 
@@ -72,3 +73,10 @@ $ npx autocorector --upload
 
 La herramienta de autocorrección preguntará por el correo del alumno y el token de Moodle. En el enlace [https://www.npmjs.com/package/autocorector](https://www.npmjs.com/package/autocorector) se proveen instrucciones para encontrar dicho token.
 
+**RÚBRICA**: Se puntuará el ejercicio a corregir sumando el % indicado a la nota total si la parte indicada es correcta:
+
+-  **10%:** Tarea 1
+-  **60%:** Tarea 2
+
+
+Si pasa todos los tests se dará la máxima puntuación.
