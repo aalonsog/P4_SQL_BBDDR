@@ -29,7 +29,7 @@ describe("P4_SQL_BBDDR", function () {
           console.log('Connection has been established successfully.');
         } catch (error) {
           console.error('Unable to connect to the database.');
-          error_critical = 'Unable to connect to the database. Está arrancada la BD? Has configurado las variables de entorno con el user y pass de MySQL?';
+          error_critical = 'Unable to connect to the database. Está arrancada la BD? Has configurado las variables de entorno con el user y pass de MySQL? Has importado la base de datos employees?';
           if (!process.env.MYSQL_USER || !process.env.MYSQL_PASS) {
               console.error('Has configurado las variables de entorno con el user y pass de MySQL?');
           };
