@@ -50,7 +50,7 @@ Una vez importados los datos conectarse a mysql y comprobar que se ha creado una
 
 0. Examinar la base de datos importada y dibujar un diagrama con las diferentes tablas y las relaciones entre ellas (no evaluable). 
 
-1. Crear una nueva tabla llamada *emails* en la que se almacenen las direcciones de correo electrónico de los empleados. Cada empleado puede tener una o más direcciones de correo electrónico asociadas. La columna *emp_no* almacenará el número de empleado y la columna *email* el correo. (2 ptos)
+1. Crear una nueva tabla llamada *emails* en la que se almacenen las direcciones de correo electrónico de los empleados. Cada empleado puede tener una o más direcciones de correo electrónico asociadas. La columna *emp_no* almacenará el número de empleado y la columna *email* el correo. Tener en cuenta las restricciones que debe tener la tabla, razonando qué debe ocurrir con los correos electrónicos de un empleado si este es eliminado de la BD. (2 ptos)
 
 2. Añadir la dirección de correo del alumno (acabada en @alumnos.upm.es) como dirección de correo del empleado que fue manager del departamento de Finanzas hasta el 1989-12-17. (2 ptos)
 
