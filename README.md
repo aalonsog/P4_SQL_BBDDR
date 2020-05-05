@@ -5,7 +5,7 @@
 <br/><br/><br/>
 
 # P4_SQL_BBDDR
-Versión: 4 de mayo de 2020
+Versión: 5 de mayo de 2020
 
 ## Objetivos
 
@@ -16,7 +16,7 @@ Versión: 4 de mayo de 2020
 
 Esta práctica consiste en el uso del lenguaje SQL a través del SGBD MySQL para examinar una base de datos, determinar su estructura y realizar una serie de consultas y modificaciones. 
 
-Para la realización de esta práctica es necesario tener instalado MySQL así como el software necesario para la utilización de la herramienta autocorector (git, nodejs y el paquete autocorector), ya utiliada previamente en otras prácticas de la asignatura. 
+Para la realización de esta práctica es necesario tener instalado MySQL así como el software necesario para la utilización de la herramienta autocorector (git, nodejs y el paquete autocorector), ya utilizada previamente en otras prácticas de la asignatura. 
 
 ## Configuración previa e importación de la base de datos
 
