@@ -127,7 +127,7 @@ describe("P4_SQL_BBDDR", function () {
             try {
                 res1 = await sequelize.query("select emp_no from employees limit 3000");
                 var item = res1[0][Math.floor(Math.random() * res1[0].length)];
-                await sequelize.query("insert into emails values (" + item.emp_no + ", 'test@alumnos.upm.es')");
+                await sequelize.query("insert into emails (emp_no, email) values (" + item.emp_no + ", 'test@alumnos.upm.es')");
                 await sequelize.query("delete from employees where emp_no=" + item.emp_no);
                 res2 = await sequelize.query("select * from emails where emp_no=" + item.emp_no);
             } catch (err) { error_critical = err;}
