@@ -31,19 +31,43 @@ A continuación deben instalarse las dependencias necesarias para ejecutar el au
 $ cd P4_SQL_BBDDR
 $ npm install
 ```
-A continuación deben configurarse los datos de acceso a MySQL mediante las variables de entorno: 
+A continuación deben configurarse los datos de acceso a MySQL mediante las variables de entorno.
+
+### MacOS / Unix
 
 ```
 $ export MYSQL_USER="<username>";
 $ export MYSQL_PASS="<password>";
 ```
 
-A continuación se debe acceder al directorio donde se encuentra el dump de la base de datos sobre la que se va a trabajar para proceder a su importación ejecutando las siguientes órdenes:
+### Windows
+
+```
+$ set MYSQL_USER=<username>;
+$ set MYSQL_PASS=<password>;
+```
+
+En Windows también es posible configurar las variables de entorno mediante la interfaz gráfica, buscando el menú de edición de variables de entorno en el buscador del sistema operativo e introduciendo los valores indicados arriba. 
+
+
+
+A continuación se debe acceder desde un terminal al directorio donde se encuentra el dump de la base de datos sobre la que se va a trabajar para proceder a su importación ejecutando las siguientes órdenes:
+
+### MacOS / Unix
 
 ```
 $ cd dump
-$ mysql -u <nombre_usuario_mysql> -p -t < employees.sql
+$ /usr/local/mysql/bin/mysql -u <nombre_usuario_mysql> -p -t < employees.sql
+
 ```
+
+### Windows
+
+```
+Get-Content employees.sql | & 'C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe' -u <nombre_usuario_mysql> -p -t
+```
+
+
 Una vez importados los datos conectarse a mysql y comprobar que se ha creado una nueva base de datos llamada "employees".
 
 ## Tareas a desarrollar
