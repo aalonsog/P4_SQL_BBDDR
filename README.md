@@ -51,7 +51,7 @@ En Windows también es posible configurar las variables de entorno mediante la i
 
 
 
-A continuación se debe acceder desde un terminal al directorio donde se encuentra el dump de la base de datos sobre la que se va a trabajar para proceder a su importación ejecutando las siguientes órdenes:
+A continuación se debe acceder desde un terminal al directorio donde se encuentra el dump de la base de datos sobre la que se va a trabajar para proceder a su importación ejecutando las siguientes órdenes (teniendo MySQL arrancado):
 
 ### MacOS / Unix
 
@@ -64,7 +64,8 @@ $ /usr/local/mysql/bin/mysql -u <nombre_usuario_mysql> -p -t < employees.sql
 ### Windows
 
 ```
-Get-Content employees.sql | & 'C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe' -u <nombre_usuario_mysql> -p -t
+> cd dump
+> Get-Content employees.sql | & 'C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe' -u <nombre_usuario_mysql> -p -t
 ```
 
 
