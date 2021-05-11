@@ -23,7 +23,7 @@ Para la realización de esta práctica es necesario tener instalado MySQL así c
 El proyecto debe clonarse en el ordenador desde el que se está trabajando:
 
 ```
-$ git clone https://github.com/aalonsog/P4_SQL_BBDDR
+$ git clone https://github.com/BBDD-ETSIT/P4_SQL_BBDDR
 ```
 A continuación deben instalarse las dependencias necesarias para ejecutar el autocorector: 
 
@@ -51,7 +51,7 @@ En Windows también es posible configurar las variables de entorno mediante la i
 
 
 
-A continuación se debe acceder desde un terminal al directorio donde se encuentra el dump de la base de datos sobre la que se va a trabajar para proceder a su importación ejecutando las siguientes órdenes (teniendo MySQL arrancado):
+A continuación se debe acceder desde un terminal al directorio donde se encuentra el dump de la base de datos (descargado de Moodle) sobre la que se va a trabajar para proceder a su importación ejecutando las siguientes órdenes (teniendo MySQL arrancado):
 
 ### MacOS / Unix
 
@@ -70,6 +70,8 @@ $ /usr/local/mysql/bin/mysql -u <nombre_usuario_mysql> -p -t < employees.sql
 
 
 Una vez importados los datos conectarse a mysql y comprobar que se ha creado una nueva base de datos llamada "employees".
+
+*Nota: es importante que el fichero de dump descargado de Moodle no se almacene en el mismo directorio P4_SQL_BBDDR de la práctica
 
 ## Tareas a desarrollar
 
