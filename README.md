@@ -47,7 +47,7 @@ $ set MYSQL_USER=<username>;
 $ set MYSQL_PASS=<password>;
 ```
 
-En Windows también es posible configurar las variables de entorno mediante la interfaz gráfica, buscando el menú de edición de variables de entorno en el buscador del sistema operativo e introduciendo los valores indicados arriba. 
+En Windows también es posible configurar las variables de entorno mediante la interfaz gráfica, buscando el menú de edición de variables de entorno en el buscador del sistema operativo e introduciendo los valores indicados arriba (en la sección de variables de entorno del sistema). 
 
 
 
