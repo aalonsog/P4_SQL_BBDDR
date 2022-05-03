@@ -6,8 +6,8 @@
     "info": {
         "githubURL": "aalonsog/P4_SQL_BBDDR",
         "serverUrl": "https://autocorector.dit.upm.es/",
-        "courseId": "7775",
-        "assignmentId": "82988"
+        "courseId": "2110",
+        "assignmentId": "16980"
     },
     "dependencies": {
         "mysql2": "^2.1.0",
