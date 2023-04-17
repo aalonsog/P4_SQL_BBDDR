@@ -2,10 +2,10 @@
 /* eslint-disable no-undef*/
 // IMPORTS
 const path = require("path");
-const Utils = require("./testutils");
-const USER_EMAIL = require('../user.json').email;
+const Utils = require("../utils/testutils");
+const USER_EMAIL = require('../../user.json').email;
 
-const node_modules = path.resolve(path.join(__dirname, "../", "node_modules"));
+const node_modules = path.resolve(path.join(__dirname, "../../", "node_modules"));
 var sequelize;
 
 const T_TEST = 2 * 60, R5S1 = 72136, R4S1 = 43624, R3S1 = 85939, R3SM = 97750; // Time between tests (seconds)
