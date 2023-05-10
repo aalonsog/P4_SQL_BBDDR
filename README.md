@@ -5,7 +5,7 @@
 <br/><br/><br/>
 
 # P4_SQL_BBDDR
-Versión: 5 de mayo de 2020
+Versión: 10 de mayo de 2023
 
 ## Objetivos
 
