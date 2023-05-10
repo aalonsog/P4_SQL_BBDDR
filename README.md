@@ -51,7 +51,7 @@ En Windows también es posible configurar las variables de entorno mediante la i
 
 
 
-A continuación se debe acceder desde un terminal al directorio donde se encuentra el dump de la base de datos (descargado de Moodle) sobre la que se va a trabajar para proceder a su importación ejecutando las siguientes órdenes (teniendo MySQL arrancado):
+A continuación se debe acceder desde un terminal al directorio donde se encuentra el dump de la base de datos (fichero descargado y descomprimido de Moodle) sobre la que se va a trabajar para proceder a su importación ejecutando las siguientes órdenes (teniendo MySQL arrancado):
 
 ### MacOS / Unix
 
