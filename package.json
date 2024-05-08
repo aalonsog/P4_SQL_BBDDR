@@ -7,7 +7,7 @@
         "githubURL": "BBDD-ETSIT/P4_SQL_BBDDR",
         "serverUrl": "https://aat.dit.upm.es/",
         "courseId": "2110",
-        "assignmentId": "7837"
+        "assignmentId": "446"
     },
     "dependencies": {
         "autocorector": "^3.1.6",
