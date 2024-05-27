@@ -31,20 +31,19 @@ A continuación deben instalarse las dependencias necesarias para ejecutar el au
 $ cd P4_SQL_BBDDR
 $ npm install
 ```
-A continuación deben configurarse los datos de acceso a MySQL mediante las variables de entorno.
-
-### MacOS / Unix
+A continuación deben configurarse los datos de acceso a MySQL mediante variables de entorno:
 
 ```
-$ export MYSQL_USER="<username>";
-$ export MYSQL_PASS="<password>";
-```
+[LINUX/MAC] $ export MYSQL_USER="<username>"
+[LINUX/MAC] $ export MYSQL_PASS="<password>"
 
-### Windows
+[WINDOWS] > set MYSQL_USER="<username>"
+[WINDOWS] > set MYSQL_PASS="<password>"
 
-```
-$ set MYSQL_USER=<username>;
-$ set MYSQL_PASS=<password>;
+Otra opcion para Windows si se usa Powershell:
+
+[WINDOWS] > $env:MYSQL_USER="<username>"
+[WINDOWS] > $env:MYSQL_PASS="<password>"
 ```
 
 En Windows también es posible configurar las variables de entorno mediante la interfaz gráfica, buscando el menú de edición de variables de entorno en el buscador del sistema operativo e introduciendo los valores indicados arriba (en la sección de variables de entorno del sistema). 
